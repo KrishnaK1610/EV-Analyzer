@@ -11,7 +11,7 @@ st.set_page_config(page_title="EV Analyzer", layout="wide")
 
 
 # Load data
-df = pd.read_excel("with Feature.xlsx")
+df = pd.read_excel("with_Feature.xlsx")
 
 
 # Title
@@ -231,5 +231,6 @@ st.altair_chart(combined_chart, use_container_width=True)
 # Display the data
 st.subheader("📊 Dataset Preview")
 st.dataframe(df.head())
+
 
 
