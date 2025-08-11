@@ -186,7 +186,7 @@ st.markdown(f"""
 st.subheader("📈 Data Insights")
 
 # Load data
-df = pd.read_excel("C:\\Users\\DELL\\Group project\\with Feature.xlsx")
+#df = pd.read_excel("C:\\Users\\DELL\\Group project\\with Feature.xlsx")
 
 # Define features and target
 features = ['battery_capacity_kWh', 'efficiency_wh_per_km', 'torque_nm']
